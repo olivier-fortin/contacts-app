@@ -1,0 +1,1 @@
+var contacts=window.contacts||{};contacts.App=function(n,t,o){"use strict";return{init:function(){t('a:not([target="_blank"])').on("click touchend",function(n){var o=t(this);window.location=o.attr("href")})}}}(window.document,window.jQuery,window.console),window.jQuery(window.document).on("ready",contacts.App.init);
