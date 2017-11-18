@@ -13,6 +13,9 @@ contacts.App = function (document, $, console) {
             window.location = el.attr('href');
         });
 
+        //Initialise modules
+        contacts.LoadJson.init();
+
     };
 
     return {
