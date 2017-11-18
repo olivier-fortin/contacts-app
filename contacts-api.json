@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "firstName": "Romain",
+        "lastName": "Hoogmoed",
+        "jobTitle": "Choreographer",
+        "address": {
+            "street": "1861 Jan Pieterszoon Coenstraat",
+            "city": "Utrecht",
+            "state": "Netherlands",
+            "postcode": "3581"
+        },
+        "phoneNumber": "(030)-976-4980",
+        "cellNumber": "(030)-930-2473",
+        "email": "romain.hoogmoed@example.com",
+        "picture": "/assets/img/44.jpg"
+    },
+    {
+        "id": "2",
+        "firstName": "Sue",
+        "lastName": "Sukhon",
+        "jobTitle": "Graphic Artist",
+        "address": {
+            "street": "1004 Cherry St",
+            "city": "Toronto",
+            "state": "ON",
+            "postcode": "M5A"
+        },
+        "phoneNumber": "(416)-561-1211",
+        "cellNumber": "(416)-247-9303",
+        "email": "deann.chavez97@example.com",
+        "picture": "/assets/img/50.jpg"
+    },
+    {
+        "id":"3",
+        "firstName": "George",
+        "lastName": "Woods",
+        "jobTitle": "Bus Dispatcher",
+        "address": {
+            "street": "7362 Westheimer Rd",
+            "city": "Houston",
+            "state": "TX",
+            "postcode": "77056"
+        },
+        "phoneNumber": "(713)-996-3500",
+        "cellNumber": "(713)-198-6483",
+        "email": "george.woods99@example.com",
+        "picture": "/assets/img/31.jpg"
+    },
+    {
+        "id":"4",
+        "firstName": "Dustin",
+        "lastName": "Bradley",
+        "jobTitle": "Elevator Service Technician",
+        "address": {
+            "street": "3837 N Maple Rd",
+            "city": "Ann Arbor",
+            "state": "MI",
+            "postcode": "48105"
+        },
+        "phoneNumber": "(734)-975-7099",
+        "cellNumber": "(734)-388-3009",
+        "email": "dustin.bradley39@example.com",
+        "picture": "/assets/img/54.jpg"
+    },
+    {
+        "id":"5",
+        "firstName": "Tanya",
+        "lastName": "Steward",
+        "jobTitle": "Pediatric Orthodontist",
+        "address": {
+            "street": "7640 Washington Ave",
+            "city": "Eden Prairie",
+            "state": "MN",
+            "postcode": "55344"
+        },
+        "phoneNumber": "(952)-975-7099",
+        "cellNumber": "(952)-368-4634",
+        "email": "tanya.steward11@example.com",
+        "picture": "/assets/img/65.jpg"
+    },
+    {
+        "id":"6",
+        "firstName": "Louise",
+        "lastName": "Stone",
+        "jobTitle": "Insurance Clerk",
+        "address": {
+            "street": "8935 W 6th St",
+            "city": "Citronelle",
+            "state": "AL",
+            "postcode": "36522"
+        },
+        "phoneNumber": "(251)-270-0411",
+        "cellNumber": "(251)-463-3684",
+        "email": "louise.stone34@example.com",
+        "picture": "/assets/img/89.jpg"
+    }
+]
