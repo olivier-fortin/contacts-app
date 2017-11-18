@@ -1,0 +1,7 @@
+.header {
+    .navbar-brand {
+        @include hs-under {
+            margin-left: -15px;
+        }
+    }
+}
