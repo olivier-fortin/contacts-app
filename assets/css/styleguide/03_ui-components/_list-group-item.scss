@@ -1,0 +1,16 @@
+.list-group-item {
+    align-items: center;
+    display: flex;
+
+    .img-circle {
+        height: 50px;
+    }
+
+    .profile-info {
+        margin-left: 10px;
+    }
+
+    &.disabled {
+        font-style: italic;
+    }
+}
