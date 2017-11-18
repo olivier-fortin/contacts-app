@@ -1,0 +1,28 @@
+//// Variables
+
+// Breakpoints
+$xs: 480px !default;
+$sm: 768px !default;
+$md: 992px !default;
+$lg: 1200px !default;
+
+// Colors
+$white: #fff;
+$lgray: #ccc;
+$dgray: #333;
+$black: #000;
+
+// Opacity
+$opacity: .7;
+
+// Transition
+$transition: all ease-in-out .3s;
+
+// Custom fonts import
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+// Font Families
+$lato: 'Lato', sans-serif;
+$icons: 'Material Icons';
+$default-font-family: $lato;

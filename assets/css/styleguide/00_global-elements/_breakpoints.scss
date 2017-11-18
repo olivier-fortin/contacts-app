@@ -1,0 +1,104 @@
+// Extra small devices
+@mixin xs-only{
+    @media (max-width: #{$xs - 1px}) {
+        @content;
+    }
+}
+
+// Horizontally small devices and up
+@mixin hs{
+    @media (min-width: #{$xs}) {
+        @content;
+    }
+}
+
+// Horizontally small devices only
+@mixin hs-only{
+    @media (min-width: #{$xs}) and (max-width: #{$sm - 1px}) {
+        @content;
+    }
+}
+
+// Horizontally small devices and under
+@mixin hs-under{
+    @media (max-width: #{$sm - 1px}){
+        @content;
+    }
+}
+
+// Small devices and up
+@mixin sm {
+    @media (min-width: #{$sm}) {
+        @content;
+    }
+}
+
+// Small devices only
+@mixin sm-only {
+    @media (min-width: #{$sm}) and (max-width: #{$md - 1px}) {
+        @content;
+    }
+}
+
+// Small devices and under
+@mixin sm-under{
+    @media (max-width: #{$md - 1px}){
+        @content;
+    }
+}
+
+// Medium devices and up
+@mixin md {
+    @media (min-width: #{$md}) {
+        @content;
+    }
+}
+
+// Medium devices only
+@mixin md-only {
+    @media (min-width: #{$md}) and (max-width: #{$lg - 1px}) {
+        @content;
+    }
+}
+
+// Medium devices and under
+@mixin md-under{
+    @media (max-width: #{$lg - 1px}){
+        @content;
+    }
+}
+
+// Large devices and up
+@mixin lg {
+    @media (min-width: #{$lg}) {
+        @content;
+    }
+}
+
+// Tablet on portrait mode
+@mixin ptablet {
+    @media (min-device-width: #{$sm}) and (max-device-width: #{$md - 1px}) and (orientation: portrait) {
+        @content;
+    }
+}
+
+// Tablet on landscape mode
+@mixin ltablet {
+    @media (min-device-width: #{$md}) and (max-device-width: #{$lg - 1px}) and (orientation: landscape) {
+        @content;
+    }
+}
+
+// Phone on portrait mode
+@mixin pphone {
+    @media (min-device-width: #{$xs}) and (max-device-width: #{$sm - 1px}) and (orientation: portrait) {
+        @content;
+    }
+}
+
+// Phone on landscape mode
+@mixin lphone {
+    @media (min-device-width: #{$xs}) and (max-device-width: #{$sm - 1px}) and (orientation: landscape) {
+        @content;
+    }
+}

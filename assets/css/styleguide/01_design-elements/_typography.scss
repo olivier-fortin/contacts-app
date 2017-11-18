@@ -1,0 +1,54 @@
+//// Typography
+
+// Headings
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+
+// Other Copy
+p {
+  color: $dgray;
+}
+ul {
+
+}
+li {
+
+}
+a {
+  text-decoration: underline;
+  transition: $transition;
+
+  &:active,
+  &:hover {
+    color: $black;
+    text-decoration: underline;
+  }
+}
+
+// Blockquote
+blockquote,
+em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+// Other
+strong {
+  font-weight: 700;
+}
