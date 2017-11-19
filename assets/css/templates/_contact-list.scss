@@ -1,0 +1,9 @@
+.contact-list {
+    .new-contact {
+        display: none;
+
+        &.add {
+            display: flex;
+        }
+    }
+}

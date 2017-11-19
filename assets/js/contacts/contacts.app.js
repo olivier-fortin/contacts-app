@@ -15,6 +15,7 @@ contacts.App = function (document, $, console) {
 
         //Initialise modules
         contacts.loadContactList.init();
+        contacts.addContact.init();
 
     };
 
