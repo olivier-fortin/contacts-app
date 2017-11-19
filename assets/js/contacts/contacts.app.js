@@ -14,7 +14,7 @@ contacts.App = function (document, $, console) {
         });
 
         //Initialise modules
-        contacts.LoadJson.init();
+        contacts.loadContactList.init();
 
     };
 
