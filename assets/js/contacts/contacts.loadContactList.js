@@ -25,6 +25,7 @@ contacts.loadContactList = function (document, $, console) {
                 );
             }
 
+            // View contact details
             $(".list-group-item").click(function() {
                 $(".contact-edit").hide();
                 $(".contact-details").show();
@@ -32,20 +33,20 @@ contacts.loadContactList = function (document, $, console) {
                 var id = $(this).attr('id');
                 var currentContact = json[id-1];
 
-                alert("Clicked"+ id);
-                console.log(currentContact);
-
-                $(".contact-image").attr("src", currentContact.picture );
+                $(".contact-image").attr("src", currentContact.picture);
                 $(".contact-name").html( currentContact.firstName + " " + currentContact.lastName);
-                $(".contact-job-title").html( currentContact.jobTitle );
-                $(".contact-address").html( currentContact.address.street + ", " + currentContact.address.city + "<br>" + currentContact.address.state + ", " + currentContact.address.postcode );
-                $(".contact-phone").html( currentContact.phoneNumber );
-                $(".contact-phone").attr('href', 'tel:' + currentContact.phoneNumber );
-                $(".contact-cell").html( currentContact.cellNumber );
-                $(".contact-cell").attr('href', 'tel:' + currentContact.cellNumber );
-                $(".contact-email").html( currentContact.email );
-                $(".contact-email").attr('href', 'mailto:' + currentContact.email );
+                $(".contact-job-title").html(currentContact.jobTitle);
+                $(".contact-address").html(currentContact.address.street + ", " + currentContact.address.city + "<br>" + currentContact.address.state + ", " + currentContact.address.postcode);
+                $(".contact-phone").html(currentContact.phoneNumber);
+                $(".contact-phone").attr('href', 'tel:' + currentContact.phoneNumber);
+                $(".contact-cell").html(currentContact.cellNumber);
+                $(".contact-cell").attr('href', 'tel:' + currentContact.cellNumber);
+                $(".contact-email").html(currentContact.email);
+                $(".contact-email").attr('href', 'mailto:' + currentContact.email);
+                $(".btn-edit-contact").attr("id", currentContact.id);
+
             });
+
         });
     }
 
