@@ -1,4 +1,10 @@
 .contact-list {
+    position: absolute;
+
+    @include hs-under {
+        margin-top: 45px;
+    }
+
     .new-contact {
         display: none;
 
