@@ -31,8 +31,6 @@ li {
 
 }
 a {
-  transition: $transition;
-
   &:active,
   &:hover {
     color: $black;

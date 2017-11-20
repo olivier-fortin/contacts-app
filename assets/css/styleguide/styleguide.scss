@@ -6,16 +6,12 @@
 @import '00_global-elements/global';
 
 // Design Elements
-@import '01_design-elements/colour-palette';
 @import '01_design-elements/icons';
-@import '01_design-elements/pictures';
 @import '01_design-elements/typography';
 
-// Form Elements
-@import '02_form-elements/inputs';
-
 // UI Components
-@import '03_ui-components/buttons';
-@import '03_ui-components/list-group-item';
-@import '03_ui-components/contact-card';
+@import '02_ui-components/buttons';
+@import '02_ui-components/list-group-item';
+@import '02_ui-components/contact-card';
+@import '02_ui-components/contact-link';
 

@@ -1,0 +1,20 @@
+.contact-link {
+    background-color: $lgray;
+    border-radius: 17px;
+    color: $dgray;
+    padding: 5px 10px;
+    transition: $transition;
+    width: fit-content;
+
+    a {
+        color: inherit;
+    }
+
+    &:hover {
+        background-color: $silver;
+        //color: $white;
+        a {
+            text-decoration: none;
+        }
+    }
+}
