@@ -54,6 +54,13 @@ contacts.editContact = function (document, $, console) {
                 $(".new-contact").removeClass("add");
             });
 
+            $(".btn-delete-conf").click(function () {
+                deleteContact();
+                console.log(json[id - 1]);
+                $('#confirmDeleteModal').modal('hide');
+                $(".contact-edit").hide();
+            });
+
             function save() {
 
                 json[id - 1] = {
@@ -73,6 +80,10 @@ contacts.editContact = function (document, $, console) {
 
                 };
 
+            }
+
+            function deleteContact() {
+                delete json[id - 1];
             }
         })
     }
