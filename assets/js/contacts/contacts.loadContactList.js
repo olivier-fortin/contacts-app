@@ -6,9 +6,9 @@ contacts.loadContactList = function (document, $, console) {
     'use strict';
 
     function loadContactList() {
-        //alert("Load the contents of the JSON file to populate the list");
+
         $.getJSON('contacts-api.json', function(json) {
-            console.log(json);
+            //console.log(json);
 
             var listGroup = $(".list-group");
 
@@ -25,12 +25,16 @@ contacts.loadContactList = function (document, $, console) {
                 );
             }
 
+            $(".navbar-brand").click(function() {
+                scrollToTop();
+            });
+
             // View contact details
             $(".list-group-item").click(function() {
                 $(".contact-edit").hide();
                 $(".contact-details").show();
 
-                $("html, body").stop().animate({scrollTop:0}, 500, 'swing');
+                scrollToTop();
 
                 var id = $(this).attr('id');
                 var currentContact = json[id-1];
@@ -50,6 +54,11 @@ contacts.loadContactList = function (document, $, console) {
             });
 
         });
+    }
+
+    // Scroll to top
+    function scrollToTop() {
+        $("html, body").stop().animate({scrollTop:0}, 500, 'swing');
     }
 
     loadContactList();
