@@ -30,6 +30,8 @@ contacts.loadContactList = function (document, $, console) {
                 $(".contact-edit").hide();
                 $(".contact-details").show();
 
+                $("html, body").stop().animate({scrollTop:0}, 500, 'swing');
+
                 var id = $(this).attr('id');
                 var currentContact = json[id-1];
 
