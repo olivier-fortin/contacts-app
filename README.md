@@ -13,7 +13,8 @@ Just start a Simple HTTP Server using :
 python -m SimpleHTTPServer 8080
 ```
 
-To launch application, open index.html.
+To launch application, open 
+`index.html`.
 
 ## Built With
 * [Bootstrap](https://getbootstrap.com/docs/3.3/) - Framework
