@@ -23,6 +23,8 @@ contacts.loadContactList = function (document, $, console) {
                     "</div>\n" +
                     "</button>"
                 );
+
+                $(".loader").hide();
             }
 
             $(".navbar-brand").click(function() {
