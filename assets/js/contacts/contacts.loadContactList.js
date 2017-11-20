@@ -40,8 +40,11 @@ contacts.loadContactList = function (document, $, console) {
                 $(".contact-job-title").html( currentContact.jobTitle );
                 $(".contact-address").html( currentContact.address.street + ", " + currentContact.address.city + "<br>" + currentContact.address.state + ", " + currentContact.address.postcode );
                 $(".contact-phone").html( currentContact.phoneNumber );
+                $(".contact-phone").attr('href', 'tel:' + currentContact.phoneNumber );
                 $(".contact-cell").html( currentContact.cellNumber );
+                $(".contact-cell").attr('href', 'tel:' + currentContact.cellNumber );
                 $(".contact-email").html( currentContact.email );
+                $(".contact-email").attr('href', 'mailto:' + currentContact.email );
             });
         });
     }
