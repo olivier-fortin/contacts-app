@@ -106,24 +106,26 @@
                         <div class="form-group col-sm-6">
                             <button class="btn btn-default btn-cancel">Cancel</button>
                             <button type="submit" class="submit btn btn-primary btn-save">Save</button>
-                            <button type="button" class="submit btn btn-danger btn-delete" data-toggle="modal" data-target="#confirmDeleteModal">Delete</button>
+                            <button type="button" class="btn btn-default btn-delete" data-toggle="modal" data-target="#confirmDeleteModal">
+                                <i class="material-icons" aria-hidden="true">delete_forever</i>Delete
+                            </button>
                         </div>
                     </form>
                 </section>
                 <aside class="col-xs-12 col-sm-5 sidebar contact-list">
-                    <ul class="list-group">
-                        <li class="list-group-item disabled new-contact">
+                    <div class="list-group">
+                        <button class="list-group-item disabled new-contact">
                             <div class="profile-info">
                                 <h4 class="list-group-item-heading">New contact</h4>
-                        </li>
-                        <!--<li class="list-group-item">
+                        </button>
+                        <!--<button class="list-group-item">
                             <img class="img-circle" src="http://via.placeholder.com/128x128">
                             <div class="profile-info">
                                 <h4 class="list-group-item-heading">Contact Name</h4>
                                 <p class="list-group-item-text">Job Tilte</p>
                             </div>
-                        </li>-->
-                    </ul>
+                        </button>-->
+                    </div>
                 </aside>
             </div>
         </div>
@@ -135,7 +137,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Delete Contact</h4>
+                    <h4 class="modal-title" id="myModalLabel">Delete contact</h4>
                 </div>
                 <div class="modal-body">
                     Are you sure that you want to permanently delete the selected contact?

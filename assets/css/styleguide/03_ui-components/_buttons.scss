@@ -1,5 +1,14 @@
 .btn-add-contact {
+    transition: $transition;
+
     @include hs-under {
         font-size: 0;
     }
+}
+
+.btn-cancel,
+.btn-delete,
+.btn-edit-contact,
+.btn-save {
+    transition: $transition;
 }
