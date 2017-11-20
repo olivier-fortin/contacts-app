@@ -73,7 +73,6 @@ contacts.editContact = function (document, $, console) {
 
                 };
 
-                alert("Saved!")
             }
         })
     }
