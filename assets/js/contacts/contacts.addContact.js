@@ -11,12 +11,10 @@ contacts.addContact = function (document, $, console) {
             $(".contact-edit").show();
             $(".contact-details").hide();
 
-            $(".new-contact").addClass('add');
-        });
+            $(".new-contact").addClass("add");
 
-        $(".btn-cancel").click(function() {
-            $(".contact-edit").hide();
-            $(".new-contact").removeClass('add');
+            $(".btn-delete").hide();
+            $(".btn-cancel").addClass("add");
         });
     }
 

@@ -34,6 +34,8 @@ contacts.loadContactList = function (document, $, console) {
                 $(".contact-edit").hide();
                 $(".contact-details").show();
 
+                $(".new-contact").removeClass('add');
+
                 scrollToTop();
 
                 var id = $(this).attr('id');
