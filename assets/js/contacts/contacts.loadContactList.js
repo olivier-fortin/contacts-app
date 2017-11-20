@@ -15,13 +15,13 @@ contacts.loadContactList = function (document, $, console) {
             for (var i = 0; i < json.length; i++) {
 
                 listGroup.append(
-                    "<li class='list-group-item' id='" + json[i].id + "'>" +
+                    "<button class='list-group-item' id='" + json[i].id + "'>" +
                     "<img class='img-circle' src=" + json[i].picture + ">" +
                     "<div class='profile-info'>\n" +
                     "<h4 class='list-group-item-heading'>" + json[i].firstName + " " + json[i].lastName + "</h4>" +
                     "<p class='list-group-item-text'>" + json[i].jobTitle + "</p>\n" +
                     "</div>\n" +
-                    "</li>"
+                    "</button>"
                 );
             }
 
